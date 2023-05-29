@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #61aed3;
+}
+
+.wrapper {
+	display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 20px;
+}
+
+.wrapper > *{
+  flex: 1 100%;
+}
+
+.header {
+  height: 100px;
+  background-color: tomato;
+  padding: 10px;
+}
+
+.header h1{
+  margin-bottom: 10px;
+}
+
+.main{
+height: 500px;
+background-color: lightgreen;
+margin: 20px 0;
+}
+
+.goldenThought{
+  height: 100px;
+  background-color: lightcoral;
+}
+
+.zenful{
+  margin-top: 20px;
+  border: none;
+  background-color: lightseagreen;
+  padding: 20px;
+}
+
+/* media queries */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .wrapper{
+    margin: 0 auto;
+    width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

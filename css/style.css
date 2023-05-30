@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #FDD692;
+	background-color: #fdd692;
 }
 
 .wrapper {
@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-  position: relative;
+	position: relative;
 	height: 100px;
 	background-image: url(../img/header.png);
 	background-size: cover;
@@ -28,107 +28,111 @@ body {
 	background-color: tomato;
 	padding: 10px;
 	border-radius: 10px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
-  z-index: -10;
-  overflow: hidden;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+	z-index: -10;
+	overflow: hidden;
 }
 
-.headerBg{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, .5);
-  z-index: -10;
+.headerBg {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -10;
 }
 
 .header h1 {
-  margin-bottom: 10px;
-  font-weight: bold;
-  text-shadow: 0px 0px 1px #fff;
-  z-index: 10;
-  color: #F8BBD0;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #fff;
+	z-index: 10;
+	color: #e6e6fa;
 }
 
 .header p {
-  font-size: 18px;
-  font-weight: bold;
-  /* text-shadow: 0px 0px 1px #fff; */
-  color: #ddd;
+	font-size: 18px;
+	font-weight: bold;
+	/* text-shadow: 0px 0px 1px #fff; */
+	color: #e6e6fa;
 }
 
 .main {
-  height: 300px;
+	height: 300px;
 	background-color: lightgreen;
 	margin: 20px 0;
 	background-image: url(../img/1.png);
 	background-size: cover;
 	background-position: center;
 	border-radius: 10px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .goldenThought {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 15px;
-  height: 120px;
-	background-image: url(../img/goldenThought.png);
-  background-position: center;
-  background-size: cover;
-  color: #E6E6FA;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	height: 120px;
+	background-image: url(../img/goldenThought_2.png);
+	background-position: center;
+	background-size: cover;
+	color: #e6e6fa;
 	padding: 10px;
 	border-radius: 10px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, .3);
-  z-index: -10;
-  overflow: hidden;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+	z-index: -10;
+	overflow: hidden;
 }
 
-.goldenThoughtBG{
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-background-color: rgba(0, 0, 0, .5);
-z-index: -10;
+.goldenThoughtBG {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -10;
 }
-
 
 .zenful {
 	margin-top: 20px;
 	border: none;
-	background-color: #4EC8FF;
+	background-color: #17a4e5;
 	padding: 10px;
 	border-radius: 10px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: bold;
-  font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 22px;
+	color: #e6e6fa;
 }
 
 .zenful:hover {
-	background-color: #17a4e5;
+	background-color: #0290d1;
+  cursor: pointer;
 }
 
 /* media queries */
 @media (min-width: 576px) {
-  .main {
-    height: 450px;
-  }
+	.main {
+		height: 450px;
+	}
 }
 
 @media (min-width: 768px) {
-
 }
 
 @media (min-width: 992px) {
 	.wrapper {
-		margin: 0 auto;
+		margin: 30px auto 0 auto;
 		width: 800px;
+    outline: 10px solid #F8BBD0;
+    outline: 10px solid #e6e6fa;
+    /* background-color: #e6e6fa; */
+    border-radius: 10px;
 	}
 
 	.header {
@@ -138,9 +142,9 @@ z-index: -10;
 		height: 150px;
 	}
 
-  .main {
-    height: 400px;
-  }
+	.main {
+		height: 400px;
+	}
 
 	.header h1 {
 		font-size: 42px;
@@ -150,9 +154,14 @@ z-index: -10;
 		font-size: 22px;
 		font-weight: bold;
 	}
+	.goldenThought h3 {
+		font-weight: bold;
+		font-size: 22px;
+	}
 }
 
 @media (min-width: 1200px) {
+
 }
 
 @media (min-width: 1400px) {
